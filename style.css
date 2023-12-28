@@ -8,6 +8,9 @@ i{
     i {
       font-size: 2rem;
     }
+    body{
+        height: auto;
+    }
   }
 
   .bg-manual{
