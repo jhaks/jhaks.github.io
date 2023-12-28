@@ -1,0 +1,42 @@
+.h-1{
+    height: 100vh !important;
+}
+i{
+    font-size: 3rem !important;
+}
+@media only screen and (max-width: 600px) {
+    i {
+      font-size: 2rem;
+    }
+  }
+
+  .bg-manual{
+    background-color: #0dcaf0b0;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  video{
+    position: fixed;
+    z-index: -100;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+  .bg-dull{
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+    background: #00000058;
+  }
+  #weather_output{
+    text-transform: uppercase;
+    color: rgb(0, 200, 207);
+    font-weight: bolder;
+  }
+  h4, h3{
+    text-transform: uppercase;
+  }
