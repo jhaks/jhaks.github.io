@@ -16,7 +16,6 @@ i{
   body{
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
   }
   video{
     position: fixed;
@@ -27,8 +26,8 @@ i{
   }
   .bg-dull{
     position: fixed;
-    width: 100vw;
-    height: 100vw;
+    width: inherit;
+    height: inherit;
     z-index: -1;
     background: #00000058;
   }
