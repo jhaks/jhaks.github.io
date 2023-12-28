@@ -47,7 +47,7 @@ getCityName(function (city) {
 
     // Now that we have the city, fetch weather information
     const apiKey = 'b530bb7a2ce04284b6263840232812';
-    const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=2&aqi=no&alerts=no`;
+    const apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=2&aqi=no&alerts=no`;
     const currentDate = document.getElementById('curr_date');
     const currentDay = document.getElementById('curr_day');
     const currentTemp = document.getElementById('curr_temp');
